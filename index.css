@@ -1,0 +1,491 @@
+* {
+    user-select: none;
+    box-sizing: border-box;     }
+html {
+    background-image: url(Resimler/Back-Ground_İmg.jpg);
+    background-size: 260vh 200vh;
+    background-repeat: no-repeat;
+    background-position: left, top;     }
+body {
+    margin: 5%;     }
+
+
+    @keyframes tıklama {
+    0% {transform: scale(0.98);}
+
+    15% {transform: scale(0.96);}
+
+    40% {transform: scale(0.99);}
+
+    80% {transform: scale(1.05);}
+
+    100% {transform: scale(1);}     }
+
+
+/* Kullandıklarım
+
+
+
+*/
+
+
+/* İmleç Gelince Efekt */
+#box-YouTube:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-İnstagram:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-WhatsApp:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-Eba:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-Mehsatek:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-ChatGpt:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-Snapany:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-Gmail:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-FaceBook:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-Coddy:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+#box-IP:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+
+#Arama:hover {
+    transition: 1ms;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 57.5%;     }
+#Search-box:hover {
+    transition: 250ms;
+    box-shadow: 0px 0px 5px 1px rgba(0, 160, 255, 0.75);
+    transform: scale(0.98);     }
+
+
+
+/* Focuslandığını Belirt */
+#box-YouTube:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-İnstagram:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-WhatsApp:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-Eba:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-Mehsatek:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-ChatGpt:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-Snapany:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-Gmail:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-FaceBook:focus {
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-Coddy:focus{
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+#box-IP:focus{
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+
+#Placeholder:focus {
+    transition: 50ms;
+    padding-top: 4px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: black;
+    outline-width: 0;
+    border-bottom-width: 3px;
+    color: white;
+    border-style: inset;     }
+
+
+
+    /* Kutu Stilleri */
+#box-YouTube {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/YouTube_Logo.png);
+    background-size: 33%;
+    background-position: right;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-İnstagram {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/İnstagram_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-WhatsApp {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/WhatsApp_Logo.png);
+    background-size: 33.5%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-Eba {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/Eba_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-Mehsatek {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/Mehsatek_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-ChatGpt {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/ChatGpt_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-Snapany {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/Snapany_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-Gmail {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/Gmail_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-FaceBook {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/FaceBook_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-Coddy {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/Coddy_Logo.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+#box-IP {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/IP_Logo.png);
+    background-size: 33.25%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+
+#Search-box {
+    width: 300px;
+    height: 60px;
+    background-color: rgb(100 100 100);
+    border-radius: 35px;
+    display: flex;
+    margin-left:  70px;     }
+#Arama {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Resimler/Arama.png);
+    background-color: rgb(100 100 100);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border: none;
+    display: inline-flex;     }
+#Bosluk {
+    height: 60px;
+    width: 15px;
+    display: inline-flex;     }
+#Placeholder {
+    display: inline;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    border-color: black;
+    outline-color: black;
+    text-align: left;
+    border: none;
+    outline-width: 0;
+    user-select: none;
+    font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+    background-color: rgb(100, 100, 100);     }
+
+input::placeholder {
+    color: rgb(240 240 240);     }
+
+
+
+
+
+
+
+/*Kullandıkları
+
+
+
+*/
+
+/* Yedek Düğmeler
+
+
+#box-UYGULAMA_İSMİ:hover {
+    transform: scale(0.98);
+    transition: 150ms;
+    box-shadow: 0px 0px 40px -10px rgb(255 255 0 / 100%);     }
+
+
+#box-UYGULAMA_İSMİ:focus{
+    animation-duration: 200ms;
+    animation-name: tıklama;
+    transition: 200ms;
+    background-color: black;
+    background-image: none;
+    box-shadow: 0px 0px 30px 0px rgba(255, 10, 10, 0.6);
+    color: white;     }
+
+
+#box-UYGULAMA_İSMİ {
+    font-size: 120%;
+    font-weight: 900;
+    width: 120px;
+    height: 30px;   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    background-image: url(Resimler/Siteİsmi.png);
+    background-size: 33%;
+    background-position: left;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 40%);     }
+
+
+*/
